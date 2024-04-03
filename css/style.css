@@ -11,12 +11,78 @@ body {
     z-index: 1000;
 }
 
+.obrasIndex {
+    position: absolute;
+    top: 25px; 
+    right: 80px;
+    z-index: 1000;
+    background-color: salmon; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Quita el borde */
+    border-radius: 5px; /* Borde redondeado */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Quita el subrayado */
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.obrasIndex:hover {
+    background-color: darkgray ; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.proyectosIndex {
+    position: absolute;
+    top: 25px; 
+    right: 200px;
+    z-index: 1000;
+    background-color: salmon; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Quita el borde */
+    border-radius: 5px; /* Borde redondeado */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Quita el subrayado */
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.proyectosIndex:hover {
+    background-color: darkgray ; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.publicacionesIndex {
+    position: absolute;
+    top: 25px; 
+    right: 350px;
+    z-index: 1000;
+    background-color: salmon; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Quita el borde */
+    border-radius: 5px; /* Borde redondeado */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Quita el subrayado */
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.publicacionesIndex:hover {
+    background-color: darkgray ; /* Cambia el color de fondo al pasar el ratón */
+}
+
 .obrasControladas {
     position: absolute;
     top: 20px; 
     left: 90px;
     z-index: 1000;
-    color: red;
+    color: salmon;
     font-size: 32px;
     font-weight: bold;
 }
@@ -37,4 +103,136 @@ body {
     height: 100%;
 }
 
+
+/* OBRAS */
+
+.logoObras {
+    position: absolute;
+    width: 50px;
+    top: 20px; 
+    left: 20px; 
+    z-index: 1000;
+}
+
+.headerObras {
+    background-color: rgb(211, 219, 227);
+    padding: 45px; /* Agregar un poco de espacio alrededor del encabezado */
+}
+
+.obrasControladasObras {
+    position: absolute;
+    top: -5px; 
+    left: 90px;
+    z-index: 1000;
+    color: salmon;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.obrasObras {
+    position: absolute;
+    top: 25px; 
+    right: 80px;
+    z-index: 1000;
+    background-color: salmon; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Quita el borde */
+    border-radius: 5px; /* Borde redondeado */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Quita el subrayado */
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.obrasObras:hover {
+    background-color: darkgray ; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.proyectosObras {
+    position: absolute;
+    top: 25px; 
+    right: 200px;
+    z-index: 1000;
+    background-color: salmon; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Quita el borde */
+    border-radius: 5px; /* Borde redondeado */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Quita el subrayado */
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.proyectosObras:hover {
+    background-color: darkgray ; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.publicacionesObras {
+    position: absolute;
+    top: 25px; 
+    right: 350px;
+    z-index: 1000;
+    background-color: salmon; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Quita el borde */
+    border-radius: 5px; /* Borde redondeado */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Quita el subrayado */
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.publicacionesObras:hover {
+    background-color: darkgray ; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column; /* Organiza las filas una encima de la otra */
+    gap: 0; /* Elimina el espacio entre las filas */
+}
+
+.row {
+    display: flex;
+    gap: 0; /* Elimina el espacio entre las imágenes */
+}
+
+.image-container {
+    position: relative;
+    flex: 1;
+}
+
+.image-text {
+    display: none;
+    position: absolute;
+    bottom: 60px; /* Ajusta la posición vertical del texto */
+    left: 60px; /* Ajusta la posición horizontal del texto */
+    padding: 5px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.image-container:hover .image-text {
+    display: block; /* Muestra el texto cuando se pasa el mouse sobre la imagen */
+}
+
+.row img {
+    width: 100%; /* Cada imagen ocupa el 50% del ancho del contenedor de la fila */
+    height: auto; /* Altura automática para mantener la proporción */
+    transition: opacity 0.3s; /* Efecto de transición */
+    display: block;
+}
+
+.row img:hover {
+    opacity: 0.3; /* Opacidad al pasar el mouse */
+}
 
